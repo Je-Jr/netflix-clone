@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5), transparent), url(Young-Sheldon-RENUEVA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+b {
+    color: rgba(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.654), transparent);
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-left>img {
+    width: 90px;
+    margin-right: 40px;
+    position: relative;
+    top: -5px;
+}
+
+.header-left ul {
+    display: flex;
+    color: rgba(255, 255, 255, .8);
+    font-size: 14px;
+    gap: 15px;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-right p {
+    font-size: 16px;
+    color: white;
+}
+
+.image-profile>img {
+    width: 30px;
+    border-radius: 4px;
+}
+
+.drop-button {
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid whitesmoke;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px 60px;
+}
+
+.main-content>img {
+    width: 500px;
+}
+
+.text-content {
+    color: white;
+    width: 490px;
+}
+
+.text-content p {
+    line-height: 1.5rem;
+    font-size: 17px;
+}
+
+.text-content h3 {
+    margin: 25px 15px;
+    font-size: 20px;
+}
+
+.series-title {
+    display: flex;
+    align-items: center;
+}
+
+.series-title>div {
+    background-color: rgb(230, 40, 50);
+    display: inline-block;
+    padding: 5px 5px;
+    height:fit-content;
+    border-radius: 5px;
+}
+
+.series-title>div p {
+    text-align: center;
+    font-weight: bold;
+    line-height: .8rem;
+    font-size: 11px;
+}
+
+.series-title>div p:last-child {
+    font-size: 16px;
+    padding-right: 1px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+}
+
+.watch {
+    display: flex;  
+    gap: 8px;
+}
+
+.watch div {
+    padding-top: -6px;
+    width: 0;
+    height: 0;
+    border: none;
+    border-bottom: 11px solid transparent;
+    border-top: 11px solid transparent;
+    border-left: 18px solid black;
+    border-radius: 3px;
+}
+
+.info {
+    background-color: #7676768a;
+    color: white;
+}
